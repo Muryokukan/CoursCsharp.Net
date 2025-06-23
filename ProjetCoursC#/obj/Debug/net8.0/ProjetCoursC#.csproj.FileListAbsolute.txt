@@ -1,0 +1,14 @@
+C:\Users\spasb\source\repos\ProjetCoursC#\bin\Debug\net8.0\ProjetCoursC#.exe
+C:\Users\spasb\source\repos\ProjetCoursC#\bin\Debug\net8.0\ProjetCoursC#.deps.json
+C:\Users\spasb\source\repos\ProjetCoursC#\bin\Debug\net8.0\ProjetCoursC#.runtimeconfig.json
+C:\Users\spasb\source\repos\ProjetCoursC#\bin\Debug\net8.0\ProjetCoursC#.dll
+C:\Users\spasb\source\repos\ProjetCoursC#\bin\Debug\net8.0\ProjetCoursC#.pdb
+C:\Users\spasb\source\repos\ProjetCoursC#\obj\Debug\net8.0\ProjetCoursC#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spasb\source\repos\ProjetCoursC#\obj\Debug\net8.0\ProjetCoursC#.AssemblyInfoInputs.cache
+C:\Users\spasb\source\repos\ProjetCoursC#\obj\Debug\net8.0\ProjetCoursC#.AssemblyInfo.cs
+C:\Users\spasb\source\repos\ProjetCoursC#\obj\Debug\net8.0\ProjetCoursC#.csproj.CoreCompileInputs.cache
+C:\Users\spasb\source\repos\ProjetCoursC#\obj\Debug\net8.0\ProjetCoursC#.dll
+C:\Users\spasb\source\repos\ProjetCoursC#\obj\Debug\net8.0\refint\ProjetCoursC#.dll
+C:\Users\spasb\source\repos\ProjetCoursC#\obj\Debug\net8.0\ProjetCoursC#.pdb
+C:\Users\spasb\source\repos\ProjetCoursC#\obj\Debug\net8.0\ProjetCoursC#.genruntimeconfig.cache
+C:\Users\spasb\source\repos\ProjetCoursC#\obj\Debug\net8.0\ref\ProjetCoursC#.dll
