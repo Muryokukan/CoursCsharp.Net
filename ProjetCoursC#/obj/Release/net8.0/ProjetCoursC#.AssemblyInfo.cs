@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjetCoursC#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+deeacf69109e332db120dd9199f8250fb55247dd")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjetCoursC#")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjetCoursC#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

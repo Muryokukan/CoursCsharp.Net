@@ -111,7 +111,30 @@ class Program
         /*Console.WriteLine(Multiplier(5, 5));
         Console.WriteLine(Multiplier(2, 3, 4));*/
 
+        // EXO 8 Alexandre taille
 
+        Console.Write("Taille en cm : ");
+        int taille = int.Parse(Console.ReadLine());
+
+        Console.Write("Poids en kg : ");
+        int poids = int.Parse(Console.ReadLine());
+
+        if (taille >= 145 && taille <= 169 && poids <= 65)
+        {
+            Console.WriteLine("Taille 1");
+        }
+        else if (taille >= 170 && taille <= 179 && poids <= 75)
+        {
+            Console.WriteLine("Taille 2");
+        }
+        else if (taille >= 180 && taille <= 189 && poids <= 85)
+        {
+            Console.WriteLine("Taille 3");
+        }
+        else
+        {
+            Console.WriteLine("trop grand ou trop gros (pense à faire un régime");
+        }
 
         Console.ReadKey();
     }
