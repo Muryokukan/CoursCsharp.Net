@@ -2,11 +2,24 @@
 
 class Program
 {
+    static int Additionner(int x, int y)
+    {
+        return x + y;
+    }
+
+    static void DireBonjour()
+    {
+        Console.WriteLine("Bonjour !");
+    }
+
+    static void AfficherSeparateur()
+    {
+        Console.Write(new string('-', 30));
+    }
+
     static void Main(string[] args)
     {
-        int[] entier = { 13, 31, 59 };
-
-        
+        /*int[] entier = { 13, 31, 59 };
 
         foreach (int n in entier)
         {
@@ -31,20 +44,28 @@ class Program
             { "Japon", "Tokyo"},
             {"Italie", "Rome"},
             {"Allemagne", "Berlin"}
-            
+
         };
 
         foreach (var entry in pays)
         {
             Console.WriteLine(entry.Key + " : " + entry.Value);
-        }
+        }*/
 
-        static void DireBonjour()
-        {
-            Console.WriteLine("Bonjour !");
-        }
+        //________________________________________________________________________________________________________
+        // PARTIE FONCTION
 
-        DireBonjour();
+        /*DireBonjour();*/
+        
+        // Pour faire un séparateur -------------------------------------------
+        /*AfficherSeparateur();
 
+        Console.ReadKey();*/
+
+        /*Console.WriteLine(Additionner(3, 5));*/
+
+
+
+        Console.ReadKey();
     }
 }
