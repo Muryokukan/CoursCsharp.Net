@@ -35,6 +35,16 @@ class Program
         return prixHT * (1 + TVA);
     }
 
+    static int Multiplier(int a, int b)
+    {
+        return a * b;
+    }
+    
+    static int Multiplier(int a, int b, int c)
+    {
+        return a * b * c;
+    }
+
     //___________________________________________________________________________________________________________
 
     static void Main(string[] args)
@@ -89,13 +99,19 @@ class Program
 
         /*Console.WriteLine(EstPair(33));
 
-        Aboyer("Médor");
-        Aboyer("Pochi", "Wouf");*/
+        *//*Aboyer("Médor");
+        Aboyer("Pochi", "Wouf");*//*
 
         Console.WriteLine(CalculerTTC(100));
         Console.WriteLine($"{CalculerTTC(100, 0.10):F2}"); 
         // :F2 pour deux décimal pour éviter l'imprécision du double
-        // ou bien remplacer double par decimal
+        // ou bien remplacer double par decimal*/
+
+
+        /*Console.WriteLine(Multiplier(5, 5));
+        Console.WriteLine(Multiplier(2, 3, 4));*/
+
+
 
         Console.ReadKey();
     }
