@@ -1,0 +1,15 @@
+C:\Users\Cedric\source\repos\CoursCsharp.Net\CoursC#Fonction\bin\Debug\net8.0\CoursC#Fonction.exe
+C:\Users\Cedric\source\repos\CoursCsharp.Net\CoursC#Fonction\bin\Debug\net8.0\CoursC#Fonction.deps.json
+C:\Users\Cedric\source\repos\CoursCsharp.Net\CoursC#Fonction\bin\Debug\net8.0\CoursC#Fonction.runtimeconfig.json
+C:\Users\Cedric\source\repos\CoursCsharp.Net\CoursC#Fonction\bin\Debug\net8.0\CoursC#Fonction.dll
+C:\Users\Cedric\source\repos\CoursCsharp.Net\CoursC#Fonction\bin\Debug\net8.0\CoursC#Fonction.pdb
+C:\Users\Cedric\source\repos\CoursCsharp.Net\CoursC#Fonction\obj\Debug\net8.0\CoursC#Fonction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cedric\source\repos\CoursCsharp.Net\CoursC#Fonction\obj\Debug\net8.0\CoursC#Fonction.AssemblyInfoInputs.cache
+C:\Users\Cedric\source\repos\CoursCsharp.Net\CoursC#Fonction\obj\Debug\net8.0\CoursC#Fonction.AssemblyInfo.cs
+C:\Users\Cedric\source\repos\CoursCsharp.Net\CoursC#Fonction\obj\Debug\net8.0\CoursC#Fonction.csproj.CoreCompileInputs.cache
+C:\Users\Cedric\source\repos\CoursCsharp.Net\CoursC#Fonction\obj\Debug\net8.0\CoursC#Fonction.sourcelink.json
+C:\Users\Cedric\source\repos\CoursCsharp.Net\CoursC#Fonction\obj\Debug\net8.0\CoursC#Fonction.dll
+C:\Users\Cedric\source\repos\CoursCsharp.Net\CoursC#Fonction\obj\Debug\net8.0\refint\CoursC#Fonction.dll
+C:\Users\Cedric\source\repos\CoursCsharp.Net\CoursC#Fonction\obj\Debug\net8.0\CoursC#Fonction.pdb
+C:\Users\Cedric\source\repos\CoursCsharp.Net\CoursC#Fonction\obj\Debug\net8.0\CoursC#Fonction.genruntimeconfig.cache
+C:\Users\Cedric\source\repos\CoursCsharp.Net\CoursC#Fonction\obj\Debug\net8.0\ref\CoursC#Fonction.dll
