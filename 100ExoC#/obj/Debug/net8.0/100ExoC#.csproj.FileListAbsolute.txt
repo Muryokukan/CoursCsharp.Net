@@ -1,0 +1,14 @@
+C:\Users\Cedric\source\repos\100ExoC#\obj\Debug\net8.0\100ExoC#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cedric\source\repos\100ExoC#\obj\Debug\net8.0\100ExoC#.AssemblyInfoInputs.cache
+C:\Users\Cedric\source\repos\100ExoC#\obj\Debug\net8.0\100ExoC#.AssemblyInfo.cs
+C:\Users\Cedric\source\repos\100ExoC#\obj\Debug\net8.0\100ExoC#.csproj.CoreCompileInputs.cache
+C:\Users\Cedric\source\repos\100ExoC#\bin\Debug\net8.0\100ExoC#.exe
+C:\Users\Cedric\source\repos\100ExoC#\bin\Debug\net8.0\100ExoC#.deps.json
+C:\Users\Cedric\source\repos\100ExoC#\bin\Debug\net8.0\100ExoC#.runtimeconfig.json
+C:\Users\Cedric\source\repos\100ExoC#\bin\Debug\net8.0\100ExoC#.dll
+C:\Users\Cedric\source\repos\100ExoC#\bin\Debug\net8.0\100ExoC#.pdb
+C:\Users\Cedric\source\repos\100ExoC#\obj\Debug\net8.0\100ExoC#.dll
+C:\Users\Cedric\source\repos\100ExoC#\obj\Debug\net8.0\refint\100ExoC#.dll
+C:\Users\Cedric\source\repos\100ExoC#\obj\Debug\net8.0\100ExoC#.pdb
+C:\Users\Cedric\source\repos\100ExoC#\obj\Debug\net8.0\100ExoC#.genruntimeconfig.cache
+C:\Users\Cedric\source\repos\100ExoC#\obj\Debug\net8.0\ref\100ExoC#.dll

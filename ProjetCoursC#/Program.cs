@@ -196,7 +196,7 @@ internal class NotesUtil
             else
             {
                 Console.WriteLine("Valeur non valide. La note sera ignorée.");
-                i--; // Pour permettre à l'utilisateur de retenter
+                i--;
             }
         }
 
