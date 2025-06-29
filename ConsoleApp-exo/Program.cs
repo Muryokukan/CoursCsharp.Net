@@ -133,80 +133,206 @@ if (myDict.ContainsKey(userAdd))
 
 /*-------------------------------------------------------------------------------*/
 
-using System.Numerics;
+using System;
+using System.Collections.Generic;
 
-Dictionary<string, string> myDict = new Dictionary<string, string>();
-
-myDict.Add("France", "Paris");
-myDict.Add("Japon", "Tokyo");
-myDict.Add("Allemagne", "Berlin");
-
-int userAddCount = 0;
-
-
-while (true)
+class Program
 {
-    Console.WriteLine("Que veux tu faire ?\n 1 = Ajout pays/capitale,\n 2 = Liste complète,\n 3 = clear,\n 4 = nombre de payx ajouter,\n 5 recherche d'une capitale");
-
-    int userChoice = Convert.ToInt32(Console.ReadLine());
-
-    switch (userChoice)
+    // Fonction pour centrer le texte dans la console
+    static void EcrireCentre(string texte)
     {
-        case 1:
-            Console.WriteLine("Ajouter un pays et sa capitale");
-            Console.Write("Entrez le nom du pays : ");
-            string userAdd = Console.ReadLine();
+        int largeurConsole = Console.WindowWidth;
+        int espaces = (largeurConsole - texte.Length) / 2;
+        Console.WriteLine(new string(' ', Math.Max(0, espaces)) + texte);
+    }
 
-            if (myDict.ContainsKey(userAdd))
+    // Fonction pour créer une ligne de séparation centrée
+    static void LigneSeparation(int longueur = 50)
+    {
+        EcrireCentre(new string('-', longueur));
+    }
+
+    // Fonction pour afficher le menu principal
+    static void AfficherMenu()
+    {
+        Console.Clear();
+        LigneSeparation(60);
+        EcrireCentre("GESTIONNAIRE DE PAYS ET CAPITALES");
+        LigneSeparation(60);
+        Console.WriteLine();
+
+        EcrireCentre("Que souhaitez-vous faire ?");
+        Console.WriteLine();
+
+        EcrireCentre("1. Ajouter un pays et sa capitale");
+        EcrireCentre("2. Afficher la liste complete");
+        EcrireCentre("3. Nombre de pays ajoutes");
+        EcrireCentre("4. Rechercher une capitale");
+        EcrireCentre("5. Quitter le programme");
+
+        Console.WriteLine();
+        LigneSeparation(30);
+        Console.Write(new string(' ', (Console.WindowWidth - "Votre choix : ".Length) / 2) + "Votre choix : ");
+    }
+
+    // Fonction pour attendre une action de l'utilisateur
+    static void AttendreContinuation()
+    {
+        Console.WriteLine();
+        EcrireCentre("Appuyez sur une touche pour continuer...");
+        Console.ReadKey();
+    }
+
+    static void Main(string[] args)
+    {
+        Console.Title = "Gestionnaire de Pays et Capitales";
+
+        // Initialisation du dictionnaire avec des données de base
+        Dictionary<string, string> myDict = new Dictionary<string, string>();
+        myDict.Add("France", "Paris");
+        myDict.Add("Japon", "Tokyo");
+        myDict.Add("Allemagne", "Berlin");
+
+        int userAddCount = 0;
+        bool continuer = true;
+
+        while (continuer)
+        {
+            AfficherMenu();
+
+            int userChoice;
+            try
             {
-                Console.WriteLine("Déjà dans la liste");
+                userChoice = Convert.ToInt32(Console.ReadLine());
             }
-            else
+            catch
             {
-                Console.Write("Entrez la capitale : ");
-                string capitale = Console.ReadLine();
-                myDict.Add(userAdd, capitale);
-                Console.WriteLine($"Pays '{userAdd}' avec la capitale '{capitale}' ajouté");
-                userAddCount++;
+                userChoice = 0;
             }
 
-            break;
-
-        case 2:
-            Console.WriteLine("\nListe complète :");
-            foreach (var item in myDict)
+            switch (userChoice)
             {
-                Console.WriteLine($"{item.Key} : {item.Value}");
+                case 1: // Ajout d'un pays
+                    Console.Clear();
+                    LigneSeparation();
+                    EcrireCentre("AJOUT D'UN NOUVEAU PAYS");
+                    LigneSeparation();
+                    Console.WriteLine();
+
+                    Console.Write(new string(' ', (Console.WindowWidth - "Entrez le nom du pays : ".Length) / 2) + "Entrez le nom du pays : ");
+                    string userAdd = Console.ReadLine();
+
+                    Console.Write(new string(' ', (Console.WindowWidth - "Entrez la capitale : ".Length) / 2) + "Entrez la capitale : ");
+                    string userCapitale = Console.ReadLine();
+
+                    if (!string.IsNullOrEmpty(userAdd) && !string.IsNullOrEmpty(userCapitale))
+                    {
+                        if (!myDict.ContainsKey(userAdd))
+                        {
+                            myDict.Add(userAdd, userCapitale);
+                            userAddCount++;
+
+                            Console.WriteLine();
+                            EcrireCentre($"Pays ajoute avec succes : {userAdd} -> {userCapitale}");
+                        }
+                        else
+                        {
+                            Console.WriteLine();
+                            EcrireCentre("Ce pays existe deja dans la liste !");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine();
+                        EcrireCentre("Erreur : Veuillez remplir tous les champs !");
+                    }
+                    AttendreContinuation();
+                    break;
+
+                case 2: // Affichage de la liste
+                    Console.Clear();
+                    LigneSeparation();
+                    EcrireCentre("LISTE COMPLETE DES PAYS ET CAPITALES");
+                    LigneSeparation();
+                    Console.WriteLine();
+
+                    if (myDict.Count > 0)
+                    {
+                        foreach (var item in myDict)
+                        {
+                            EcrireCentre($"{item.Key} -> {item.Value}");
+                        }
+                        Console.WriteLine();
+                        EcrireCentre($"Total : {myDict.Count} pays dans la liste");
+                    }
+                    else
+                    {
+                        EcrireCentre("Aucun pays dans la liste !");
+                    }
+                    AttendreContinuation();
+                    break;
+
+                case 3: // Nombre de pays ajoutés par l'utilisateur
+                    Console.Clear();
+                    LigneSeparation();
+                    EcrireCentre("STATISTIQUES D'AJOUT");
+                    LigneSeparation();
+                    Console.WriteLine();
+
+                    EcrireCentre($"Vous avez ajoute {userAddCount} pays");
+                    EcrireCentre($"Il y a {myDict.Count} pays au total dans la liste");
+                    EcrireCentre($"Il y avait {myDict.Count - userAddCount} pays par defaut");
+
+                    AttendreContinuation();
+                    break;
+
+                case 4: // Recherche d'une capitale
+                    Console.Clear();
+                    LigneSeparation();
+                    EcrireCentre("RECHERCHE DE CAPITALE");
+                    LigneSeparation();
+                    Console.WriteLine();
+
+                    Console.Write(new string(' ', (Console.WindowWidth - "Entrez le nom du pays : ".Length) / 2) + "Entrez le nom du pays : ");
+                    string paysRecherche = Console.ReadLine();
+
+                    Console.WriteLine();
+                    if (myDict.ContainsKey(paysRecherche))
+                    {
+                        EcrireCentre($"La capitale de {paysRecherche} est : {myDict[paysRecherche]}");
+                    }
+                    else
+                    {
+                        EcrireCentre("Pays non trouve dans la liste !");
+                        EcrireCentre("Verifiez l'orthographe ou ajoutez ce pays d'abord");
+                    }
+                    AttendreContinuation();
+                    break;
+
+                case 5: // Quitter
+                    Console.Clear();
+                    LigneSeparation();
+                    EcrireCentre("MERCI D'AVOIR UTILISE NOTRE PROGRAMME !");
+                    EcrireCentre("Au revoir !");
+                    LigneSeparation();
+
+                    continuer = false;
+                    break;
+
+                default: // Gestion des choix invalides
+                    Console.Clear();
+                    LigneSeparation();
+                    EcrireCentre("CHOIX INVALIDE");
+                    LigneSeparation();
+                    Console.WriteLine();
+
+                    EcrireCentre("Veuillez choisir une option entre 1 et 5");
+
+                    AttendreContinuation();
+                    break;
             }
-            break;
-
-        case 3:
-            Console.Clear();
-            break;
-
-        case 4:
-            Console.Clear();
-            Console.WriteLine($"{userAddCount} pays ajouter");
-            break;
-        case 5:
-            string userInput = "";
-            string search = "";
-
-            do
-            {
-                Console.WriteLine("Donnez un pays, sinon tapez 'fin'");
-                userInput = Console.ReadLine();
-
-                if (userInput != "fin")
-                {
-                    Console.WriteLine("Donnez sa capitale");
-                    couples.Add(userInput, Console.ReadLine());
-                }
-            }
-            while (userInput != "fin");
-            break;
-    };
-
+        }
+    }
 }
 
 
