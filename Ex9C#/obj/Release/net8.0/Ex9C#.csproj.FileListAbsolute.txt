@@ -1,0 +1,14 @@
+C:\Users\Cedric\source\repos\Ex9C#\bin\Release\net8.0\Ex9C#.exe
+C:\Users\Cedric\source\repos\Ex9C#\bin\Release\net8.0\Ex9C#.deps.json
+C:\Users\Cedric\source\repos\Ex9C#\bin\Release\net8.0\Ex9C#.runtimeconfig.json
+C:\Users\Cedric\source\repos\Ex9C#\bin\Release\net8.0\Ex9C#.dll
+C:\Users\Cedric\source\repos\Ex9C#\bin\Release\net8.0\Ex9C#.pdb
+C:\Users\Cedric\source\repos\Ex9C#\obj\Release\net8.0\Ex9C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cedric\source\repos\Ex9C#\obj\Release\net8.0\Ex9C#.AssemblyInfoInputs.cache
+C:\Users\Cedric\source\repos\Ex9C#\obj\Release\net8.0\Ex9C#.AssemblyInfo.cs
+C:\Users\Cedric\source\repos\Ex9C#\obj\Release\net8.0\Ex9C#.csproj.CoreCompileInputs.cache
+C:\Users\Cedric\source\repos\Ex9C#\obj\Release\net8.0\Ex9C#.dll
+C:\Users\Cedric\source\repos\Ex9C#\obj\Release\net8.0\refint\Ex9C#.dll
+C:\Users\Cedric\source\repos\Ex9C#\obj\Release\net8.0\Ex9C#.pdb
+C:\Users\Cedric\source\repos\Ex9C#\obj\Release\net8.0\Ex9C#.genruntimeconfig.cache
+C:\Users\Cedric\source\repos\Ex9C#\obj\Release\net8.0\ref\Ex9C#.dll
