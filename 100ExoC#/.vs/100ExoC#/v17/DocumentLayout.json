@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Cedric\\source\\repos\\100ExoC#\\",
+  "WorkspaceRootPath": "C:\\Users\\Cedric\\source\\repos\\CoursCsharp.Net\\100ExoC#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6102795-9055-46BB-9DFA-D0CEC7ACB746}|100ExoC#.csproj|c:\\users\\cedric\\source\\repos\\100exoc#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6102795-9055-46BB-9DFA-D0CEC7ACB746}|100ExoC#.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cedric\\source\\repos\\CoursCsharp.Net\\100ExoC#\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6102795-9055-46BB-9DFA-D0CEC7ACB746}|100ExoC#.csproj|c:\\users\\cedric\\source\\repos\\100exoc#\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6102795-9055-46BB-9DFA-D0CEC7ACB746}|100ExoC#.csproj|solutionrelative:function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cedric\\source\\repos\\CoursCsharp.Net\\100ExoC#\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,24 +30,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "function.cs",
-              "DocumentMoniker": "C:\\Users\\Cedric\\source\\repos\\100ExoC#\\function.cs",
+              "DocumentMoniker": "C:\\Users\\Cedric\\source\\repos\\CoursCsharp.Net\\100ExoC#\\function.cs",
               "RelativeDocumentMoniker": "function.cs",
-              "ToolTip": "C:\\Users\\Cedric\\source\\repos\\100ExoC#\\function.cs",
+              "ToolTip": "C:\\Users\\Cedric\\source\\repos\\CoursCsharp.Net\\100ExoC#\\function.cs",
               "RelativeToolTip": "function.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAkwFgAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-26T08:56:17.221Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Cedric\\source\\repos\\100ExoC#\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Cedric\\source\\repos\\CoursCsharp.Net\\100ExoC#\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Cedric\\source\\repos\\100ExoC#\\Program.cs",
+              "ToolTip": "C:\\Users\\Cedric\\source\\repos\\CoursCsharp.Net\\100ExoC#\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

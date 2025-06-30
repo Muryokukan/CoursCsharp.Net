@@ -336,3 +336,19 @@ class Program
 }
 
 
+if (operateur == "=")
+{
+    double resultat = CalculerExpression(historiqueCalculs);
+    Console.WriteLine();
+    MesFonctions.EcrireCentre($"Résultat : {string.Join(" ", historiqueCalculs)} = {resultat}");
+    Console.WriteLine();
+
+    // Demander continuation
+    Console.Write("Nouveau calcul ? (o/n) : ");
+    string reponse = Console.ReadLine()?.ToLower();
+
+    continuer = (reponse == "o" || reponse == "oui");
+
+    if (continuer)
+        historiqueCalculs.Clear(); // Reset pour nouveau calcul
+}

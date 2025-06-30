@@ -391,30 +391,106 @@ Console.ReadKey();*/
 
 
 
-Dictionary<string, string> myDict = new Dictionary<string, string>();
+//Dictionary<string, string> myDict = new Dictionary<string, string>();
 
-myDict.Add("France", "Paris");
-myDict.Add("Japon", "Tokyo");
-myDict.Add("Allemagne", "Berlin");
+//myDict.Add("France", "Paris");
+//myDict.Add("Japon", "Tokyo");
+//myDict.Add("Allemagne", "Berlin");
 
-Console.WriteLine("Ajouter un pays et sa capitale");
-Console.Write("Entrez le nom du pays : ");
-string userAdd = Console.ReadLine();
+//Console.WriteLine("Ajouter un pays et sa capitale");
+//Console.Write("Entrez le nom du pays : ");
+//string userAdd = Console.ReadLine();
 
-if (myDict.ContainsKey(userAdd))
+//if (myDict.ContainsKey(userAdd))
+//{
+//    Console.WriteLine("Déjà dans la liste");
+//}
+//else
+//{
+//    Console.Write("Entrez la capitale : ");
+//    string capitale = Console.ReadLine();
+//    myDict.Add(userAdd, capitale);
+//    Console.WriteLine($"Pays '{userAdd}' avec la capitale '{capitale}' ajouté!");
+//}
+
+//Console.WriteLine("\nListe complète :");
+//foreach (var item in myDict)
+//{
+//    Console.WriteLine($"{item.Key} : {item.Value}");
+//}
+
+
+//bool continuer = true;
+//while(continuer)
+//{
+//    Console.WriteLine("Premier nombre:");
+//    int a = int.Parse(Console.ReadLine());
+
+//    Console.WriteLine("Opération (+, -, *, /):");
+//    string op = Console.ReadLine();
+
+//    Console.WriteLine("Deuxième nombre:");
+//    int b = int.Parse(Console.ReadLine());
+
+//    Console.Write("Résultat: ");
+//    if (op == "+") Console.WriteLine(a + b);
+//    else if (op == "-") Console.WriteLine(a - b);
+//    else if (op == "*") Console.WriteLine(a * b);
+//    else if (op == "/") Console.WriteLine(a / b);
+//    else Console.WriteLine("Opération invalide");
+
+//    Console.ReadKey();
+//}
+
+Console.WriteLine("Premier nombre:");
+int premier = int.Parse(Console.ReadLine());
+
+List<string> expression = new List<string> { premier.ToString() };
+
+while (true)
 {
-    Console.WriteLine("Déjà dans la liste");
-}
-else
-{
-    Console.Write("Entrez la capitale : ");
-    string capitale = Console.ReadLine();
-    myDict.Add(userAdd, capitale);
-    Console.WriteLine($"Pays '{userAdd}' avec la capitale '{capitale}' ajouté!");
-}
+    Console.WriteLine("Opération (+, -, *, /) ou 'q' pour quitter:");
+    string op = Console.ReadLine();
 
-Console.WriteLine("\nListe complète :");
-foreach (var item in myDict)
-{
-    Console.WriteLine($"{item.Key} : {item.Value}");
+    if (op == "q") break;
+
+    Console.WriteLine("Nombre suivant:");
+    int nombre = int.Parse(Console.ReadLine());
+
+    expression.Add(op);
+    expression.Add(nombre.ToString());
+
+    List<string> calcul = new List<string>(expression);
+
+    for (int i = 1; i < calcul.Count; i += 2)
+    {
+        if (calcul[i] == "*" || calcul[i] == "/")
+        {
+            int gauche = int.Parse(calcul[i - 1]);
+            int droite = int.Parse(calcul[i + 1]);
+            int resultat = calcul[i] == "*" ? gauche * droite : gauche / droite;
+
+            calcul[i - 1] = resultat.ToString();
+            calcul.RemoveAt(i);
+            calcul.RemoveAt(i);
+            i = -1;
+        }
+    }
+
+    for (int i = 1; i < calcul.Count; i += 2)
+    {
+        if (calcul[i] == "+" || calcul[i] == "-")
+        {
+            int gauche = int.Parse(calcul[i - 1]);
+            int droite = int.Parse(calcul[i + 1]);
+            int resultat = calcul[i] == "+" ? gauche + droite : gauche - droite;
+
+            calcul[i - 1] = resultat.ToString();
+            calcul.RemoveAt(i);
+            calcul.RemoveAt(i);
+            i = -1;
+        }
+    }
+
+    Console.WriteLine($"Résultat: {calcul[0]}");
 }
