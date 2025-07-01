@@ -1,0 +1,15 @@
+C:\Users\spasb\Desktop\Boulot\CoursCsharp.Net\GestionEmployer\obj\Debug\net8.0\GestionEmployer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spasb\Desktop\Boulot\CoursCsharp.Net\GestionEmployer\obj\Debug\net8.0\GestionEmployer.AssemblyInfoInputs.cache
+C:\Users\spasb\Desktop\Boulot\CoursCsharp.Net\GestionEmployer\obj\Debug\net8.0\GestionEmployer.AssemblyInfo.cs
+C:\Users\spasb\Desktop\Boulot\CoursCsharp.Net\GestionEmployer\obj\Debug\net8.0\GestionEmployer.csproj.CoreCompileInputs.cache
+C:\Users\spasb\Desktop\Boulot\CoursCsharp.Net\GestionEmployer\obj\Debug\net8.0\GestionEmployer.sourcelink.json
+C:\Users\spasb\Desktop\Boulot\CoursCsharp.Net\GestionEmployer\bin\Debug\net8.0\GestionEmployer.exe
+C:\Users\spasb\Desktop\Boulot\CoursCsharp.Net\GestionEmployer\bin\Debug\net8.0\GestionEmployer.deps.json
+C:\Users\spasb\Desktop\Boulot\CoursCsharp.Net\GestionEmployer\bin\Debug\net8.0\GestionEmployer.runtimeconfig.json
+C:\Users\spasb\Desktop\Boulot\CoursCsharp.Net\GestionEmployer\bin\Debug\net8.0\GestionEmployer.dll
+C:\Users\spasb\Desktop\Boulot\CoursCsharp.Net\GestionEmployer\bin\Debug\net8.0\GestionEmployer.pdb
+C:\Users\spasb\Desktop\Boulot\CoursCsharp.Net\GestionEmployer\obj\Debug\net8.0\GestionEmployer.dll
+C:\Users\spasb\Desktop\Boulot\CoursCsharp.Net\GestionEmployer\obj\Debug\net8.0\refint\GestionEmployer.dll
+C:\Users\spasb\Desktop\Boulot\CoursCsharp.Net\GestionEmployer\obj\Debug\net8.0\GestionEmployer.pdb
+C:\Users\spasb\Desktop\Boulot\CoursCsharp.Net\GestionEmployer\obj\Debug\net8.0\GestionEmployer.genruntimeconfig.cache
+C:\Users\spasb\Desktop\Boulot\CoursCsharp.Net\GestionEmployer\obj\Debug\net8.0\ref\GestionEmployer.dll

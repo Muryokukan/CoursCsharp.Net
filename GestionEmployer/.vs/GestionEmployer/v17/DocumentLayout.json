@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\spasb\\Desktop\\Boulot\\CoursCsharp.Net\\GestionEmployer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{60F386C2-8EB4-42EA-BCB6-9C0645E998D3}|GestionEmployer.csproj|c:\\users\\spasb\\desktop\\boulot\\courscsharp.net\\gestionemployer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F386C2-8EB4-42EA-BCB6-9C0645E998D3}|GestionEmployer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F386C2-8EB4-42EA-BCB6-9C0645E998D3}|GestionEmployer.csproj|c:\\users\\spasb\\desktop\\boulot\\courscsharp.net\\gestionemployer\\classes\\entreprise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F386C2-8EB4-42EA-BCB6-9C0645E998D3}|GestionEmployer.csproj|solutionrelative:classes\\entreprise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F386C2-8EB4-42EA-BCB6-9C0645E998D3}|GestionEmployer.csproj|c:\\users\\spasb\\desktop\\boulot\\courscsharp.net\\gestionemployer\\classes\\employe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F386C2-8EB4-42EA-BCB6-9C0645E998D3}|GestionEmployer.csproj|solutionrelative:classes\\employe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F386C2-8EB4-42EA-BCB6-9C0645E998D3}|GestionEmployer.csproj|c:\\users\\spasb\\desktop\\boulot\\courscsharp.net\\gestionemployer\\classes\\ingenieur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F386C2-8EB4-42EA-BCB6-9C0645E998D3}|GestionEmployer.csproj|solutionrelative:classes\\ingenieur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F386C2-8EB4-42EA-BCB6-9C0645E998D3}|GestionEmployer.csproj|c:\\users\\spasb\\desktop\\boulot\\courscsharp.net\\gestionemployer\\classes\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F386C2-8EB4-42EA-BCB6-9C0645E998D3}|GestionEmployer.csproj|solutionrelative:classes\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F386C2-8EB4-42EA-BCB6-9C0645E998D3}|GestionEmployer.csproj|c:\\users\\spasb\\desktop\\boulot\\courscsharp.net\\gestionemployer\\interfaces\\itravailleur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F386C2-8EB4-42EA-BCB6-9C0645E998D3}|GestionEmployer.csproj|solutionrelative:interfaces\\itravailleur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Entreprise.cs",
+              "DocumentMoniker": "C:\\Users\\spasb\\Desktop\\Boulot\\CoursCsharp.Net\\GestionEmployer\\Classes\\Entreprise.cs",
+              "RelativeDocumentMoniker": "Classes\\Entreprise.cs",
+              "ToolTip": "C:\\Users\\spasb\\Desktop\\Boulot\\CoursCsharp.Net\\GestionEmployer\\Classes\\Entreprise.cs",
+              "RelativeToolTip": "Classes\\Entreprise.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA9wBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T19:47:26.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "C:\\Users\\spasb\\Desktop\\Boulot\\CoursCsharp.Net\\GestionEmployer\\Classes\\Manager.cs",
+              "RelativeDocumentMoniker": "Classes\\Manager.cs",
+              "ToolTip": "C:\\Users\\spasb\\Desktop\\Boulot\\CoursCsharp.Net\\GestionEmployer\\Classes\\Manager.cs",
+              "RelativeToolTip": "Classes\\Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T19:37:13.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITravailleur.cs",
+              "DocumentMoniker": "C:\\Users\\spasb\\Desktop\\Boulot\\CoursCsharp.Net\\GestionEmployer\\Interfaces\\ITravailleur.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ITravailleur.cs",
+              "ToolTip": "C:\\Users\\spasb\\Desktop\\Boulot\\CoursCsharp.Net\\GestionEmployer\\Interfaces\\ITravailleur.cs",
+              "RelativeToolTip": "Interfaces\\ITravailleur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T19:30:41.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ingenieur.cs",
+              "DocumentMoniker": "C:\\Users\\spasb\\Desktop\\Boulot\\CoursCsharp.Net\\GestionEmployer\\Classes\\Ingenieur.cs",
+              "RelativeDocumentMoniker": "Classes\\Ingenieur.cs",
+              "ToolTip": "C:\\Users\\spasb\\Desktop\\Boulot\\CoursCsharp.Net\\GestionEmployer\\Classes\\Ingenieur.cs",
+              "RelativeToolTip": "Classes\\Ingenieur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T19:24:33.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employe.cs",
+              "DocumentMoniker": "C:\\Users\\spasb\\Desktop\\Boulot\\CoursCsharp.Net\\GestionEmployer\\Classes\\Employe.cs",
+              "RelativeDocumentMoniker": "Classes\\Employe.cs",
+              "ToolTip": "C:\\Users\\spasb\\Desktop\\Boulot\\CoursCsharp.Net\\GestionEmployer\\Classes\\Employe.cs",
+              "RelativeToolTip": "Classes\\Employe.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwBsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T19:09:50.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\spasb\\Desktop\\Boulot\\CoursCsharp.Net\\GestionEmployer\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\spasb\\Desktop\\Boulot\\CoursCsharp.Net\\GestionEmployer\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAIwD0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T18:55:41.272Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
